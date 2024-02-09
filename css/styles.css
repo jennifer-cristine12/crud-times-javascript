@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+
+body {
+  background-image: url("../img/quadra.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  /* background-size: cover;*/
+}
+h1 {
+  font-family: "Protest Guerrilla", sans-serif;
+  text-align: center;
+}
+form {
+  display: block;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+  justify-content: center;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  gap: 10px;
+}
+button {
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 5px;
+  color: #09145f;
+}
+button:hover {
+  background-color: #091450;
+  color: aliceblue;
+  transform: scale(1.1);
+}
+main {
+  margin: auto;
+  justify-content: center;
+  background-color: white;
+  border-radius: 5px;
+  padding-top: 10px;
+  overflow: hidden;
+}
+table {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f0f0;
+  margin-bottom: 10px;
+}
+th,
+tr {
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+#new {
+  margin: 10px;
+}
+.optTd {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.hide {
+  display: none;
+}
