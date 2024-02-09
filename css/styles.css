@@ -3,8 +3,8 @@
 body {
   background-image: url("../img/quadra.jpg");
   background-repeat: no-repeat;
-  height: 100%;
-  /* background-size: cover;*/
+
+  background-size: cover;
 }
 h1 {
   font-family: "Protest Guerrilla", sans-serif;
@@ -31,6 +31,7 @@ button {
 }
 button:hover {
   background-color: #091450;
+  border-color: aliceblue;
   color: aliceblue;
   transform: scale(1.1);
 }
