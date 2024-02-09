@@ -19,13 +19,13 @@
     <main>
       <h1>Lista de times em data</h1>
 
-      <form method="post" class="hide">
-        <input type="datetime-local" name="Data" id="Data" />
+      <div class="hide">
+        <input type="date" name="Data" id="Data" />
         <input type="text" name="Nome" id="Nome" />
         <button type="submit" name="criar" id="criar">
           <i class="fa-solid fa-plus"></i>
         </button>
-      </form>
+      </div>
       <button id="new">Novo time</button>
       <table>
         <thead>
@@ -35,20 +35,7 @@
             <th>Opções</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <td>08/02/2024 17:01</td>
-            <td>Campeões da fiel</td>
-            <td class="optTd">
-              <button class="opt" class="editar">
-                <i class="fa-solid fa-pen"></i>
-              </button>
-              <button class="opt" class="remover">
-                <i class="fa-solid fa-trash"></i>
-              </button>
-            </td>
-          </tr>
-        </tbody>
+        <tbody></tbody>
       </table>
     </main>
   </body>
